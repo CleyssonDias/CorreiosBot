@@ -1,1 +1,1 @@
-deve:npx dev
+dev: yarn dev
