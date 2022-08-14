@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/CleyssonDias/CorreiosBot#readme",
   "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "correios-rastreamento": "^0.5.2",
+    "quick.db": "^9.0.6",
     "ts-node-dev": "^2.0.0",
     "venom-bot": "^4.2.9"
   }
