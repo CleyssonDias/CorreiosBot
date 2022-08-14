@@ -25,15 +25,19 @@ async function execute(client, user, msg, contato) {
       db.set(`user_${user}`, {
         stage:0
       })
-      return ['*Sua encomenda está com a gente!*', '*Você pode vim retirar no CDD das 13h até as 16*']
+      return [`*🤔 Está Separada? 🤔*
+      
+_⛳Minha encomenda já está pronta pra retirada?:_ *SIM*
+_😉Horario para retirada:_ *13:00h ás 16:00h*`]
     } else {
       db.set(`user_${user}`, {
         stage:0
       })
-      return ['*😥Sua encomenda ainda não está com a gente😥*']
-    }
-    
-
+      return [`*🤔 Está Separada? 🤔*
+      
+      _⛳Minha encomenda já está pronta pra retirada?:_ *NÃO*
+      _😉Horario para retirada:_ *13:00h ás 16:00h*`]
+        }
   }
   
   return [`🧐 Instruções 🧐

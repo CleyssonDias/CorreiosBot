@@ -2,6 +2,9 @@ const db = require("../database");
 const correios = require('correios-rastreamento')
 
 async function execute(client, user, msg, contato) {
+  if (msg == 'ok' || msg == 'Ok' || msg == 'oK') {
+    return ["_*📰 Digite seu codigo de rastreio: 📰*_"]
+  }
   var pay = "*📰Rastreio📰* \n"
   const ras = await correios.sro.rastrearObjeto(msg)
   for (let i = 0; i < ras.status_list.length ;i++) {
@@ -12,6 +15,7 @@ async function execute(client, user, msg, contato) {
 ✈️${ras.status_list[i].destino?ras.status_list[i].destino:'Destino: -'}
 📮${ras.status_list[i].local?ras.status_list[i].local:'Local: -'} \n\n`
   }
+
   await db.set(`user_${user}`, {
     stage:0
   })

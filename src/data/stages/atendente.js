@@ -19,7 +19,7 @@ async function execute(client, user, msg, contato) {
     if (!userConfirm.desc) {
       return ['*😁Siga as intruções para continuar!😁*']
     }
-    await db.set(`user_${user}.proble`, "Problemas com cartas/boletos")
+    await db.set(`user_${user}.proble`, "Direto com o atendimento")
     await db.set(`user_${user}.stage`,9999)
     return ['*Digite "Ok" para continuar*']
 

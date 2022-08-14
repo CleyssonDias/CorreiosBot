@@ -1,0 +1,18 @@
+2022/08/14-11:46:24.186 81c Recovering log #765
+2022/08/14-11:46:24.247 81c Level-0 table #777: started
+2022/08/14-11:46:24.424 81c Level-0 table #777: 529616 bytes OK
+2022/08/14-11:46:24.502 81c Delete type=0 #765
+2022/08/14-11:46:24.502 81c Delete type=3 #753
+2022/08/14-11:46:27.175 c24 Moved #777 to level-1 529616 bytes OK: files[ 0 1 9 0 0 0 0 ]
+2022/08/14-11:46:38.422 f9c Compacting 1@1 + 9@2 files
+2022/08/14-11:46:38.983 f9c Generated table #779@1: 28677 keys, 2246126 bytes
+2022/08/14-11:46:39.733 f9c Generated table #780@1: 23621 keys, 2260133 bytes
+2022/08/14-11:46:40.284 f9c Generated table #781@1: 23620 keys, 2254264 bytes
+2022/08/14-11:46:40.898 f9c Generated table #782@1: 23842 keys, 2260716 bytes
+2022/08/14-11:46:41.650 f9c Generated table #783@1: 23264 keys, 2267691 bytes
+2022/08/14-11:46:42.180 f9c Generated table #784@1: 23579 keys, 2255114 bytes
+2022/08/14-11:46:42.751 f9c Generated table #785@1: 88484 keys, 2241245 bytes
+2022/08/14-11:46:43.818 f9c Generated table #786@1: 57191 keys, 2307001 bytes
+2022/08/14-11:46:44.677 f9c Generated table #787@1: 33892 keys, 1164637 bytes
+2022/08/14-11:46:44.677 f9c Compacted 1@1 + 9@2 files => 19256927 bytes
+2022/08/14-11:46:44.763 f9c compacted to: files[ 0 0 9 0 0 0 0 ]

@@ -5,11 +5,11 @@ async function execute(client, user, msg, contato) {
 
   if (format[0] == '/cod') {
     await db.set(`user_${user}.cod`, format[1]) 
-    return ['*🆗Codigo Adicionado com sucesso!🆗*']
+    return ['*🆗 Codigo Adicionado com sucesso 🆗*']
   } else if (format[0] == '/desc') {
     let resf = msg.split('/desc')
     await db.set(`user_${user}.desc`, resf) 
-    return ['*🆗Descrição Adicionada com sucesso🆗*']
+    return ['*🆗 Descrição Adicionada com sucesso 🆗*']
   } 
   if (msg == "#") {
     await db.set(`user_${user}`, {
