@@ -1,1 +1,1 @@
-web: npx dev
+deve:npx dev
