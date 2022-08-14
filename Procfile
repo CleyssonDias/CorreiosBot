@@ -1,1 +1,1 @@
-dev: yarn dev
+dev: node ./src/main.js
