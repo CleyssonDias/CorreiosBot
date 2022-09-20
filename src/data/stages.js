@@ -1,24 +1,24 @@
 const stages = {
   0:{
-    obj: require('./stages/wellcome')
+    obj: require('./stages/0')
   },
   1:{
-    obj: require('./stages/probPedidos')
+    obj: require('./stages/1')
   },
   2:{
-    obj: require('./stages/probCartas')
+    obj: require('./stages/2')
   },
-  3:{
-    obj: require('./stages/atendente')
+  1.1: {
+    obj: require('./subStages/1-1')
   },
-  4:{
-    obj: require('./stages/rastreio')
+  1.2: {
+    obj: require('./subStages/1-2')
   },
-  5:{
-    obj: require('./stages/veCDD')
+  10: {
+    obj: require('./stages/10')
   },
-  9999: {
-    obj: require('./stages/grupo')
+  commands: {
+    obj: require('./verifyMessages')
   }
 }
 

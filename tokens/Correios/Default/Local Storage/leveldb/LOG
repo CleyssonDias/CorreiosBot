@@ -1,14 +1,3 @@
-2022/08/14-11:49:10.706 b5c Recovering log #263
-2022/08/14-11:49:10.706 b5c Level-0 table #265: started
-2022/08/14-11:49:10.876 b5c Level-0 table #265: 379 bytes OK
-2022/08/14-11:49:11.095 b5c Delete type=0 #263
-2022/08/14-11:49:11.095 b5c Delete type=3 #261
-2022/08/14-11:49:11.096 11a4 Compacting 4@0 + 1@1 files
-2022/08/14-11:49:11.179 11a4 Generated table #267@0: 55 keys, 3555 bytes
-2022/08/14-11:49:11.179 11a4 Compacted 4@0 + 1@1 files => 3555 bytes
-2022/08/14-11:49:11.245 11a4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2022/08/14-11:49:11.247 11a4 Delete type=2 #254
-2022/08/14-11:49:11.247 11a4 Delete type=2 #256
-2022/08/14-11:49:11.247 11a4 Delete type=2 #259
-2022/08/14-11:49:11.247 11a4 Delete type=2 #262
-2022/08/14-11:49:11.247 11a4 Delete type=2 #265
+2022/09/15-20:56:17.514 1c7c Reusing MANIFEST C:\Users\grautecnico\Desktop\Nova pasta\tokens\Correios\Default\Local Storage\leveldb/MANIFEST-000001
+2022/09/15-20:56:17.516 1c7c Recovering log #4
+2022/09/15-20:56:17.517 1c7c Reusing old log C:\Users\grautecnico\Desktop\Nova pasta\tokens\Correios\Default\Local Storage\leveldb/000004.log 
